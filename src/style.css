@@ -1,0 +1,132 @@
+@font-face {
+  font-family: restaurantFont;
+  src: url("../src/Raleway-VariableFont_wght.ttf");
+}
+
+html {
+  background-image: url("../src/images/backgroundImg.jpg");
+  background-color: aliceblue;
+  font-family: restaurantFont;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: max(10px, 5%) 1600px max(10px, 5%);
+  grid-template-rows: max(10px, 5%) 770px max(10px, 20%);
+}
+
+.contentBox {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(161, 161, 161);
+  height: 750px;
+  min-width: 1200px;
+  margin: 10px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns:
+    max(100px, 10%) max(100px, 10%) max(100px, 10%) max(100px, 10%)
+    max(100px, 10%) max(100px, 10%) max(100px, 10%) 420px;
+  grid-template-rows: 120px 100px 120px 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.name {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.menu {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.about {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.reviews {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.contact {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.header {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+  align-self: end;
+}
+
+/* For the Home Page */
+.info {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+}
+
+.restaurant {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  width: 1100px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.map {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  width: 420px;
+  height: 730px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* For the Menu Page */
