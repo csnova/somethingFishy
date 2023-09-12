@@ -43,5 +43,4 @@ export default function homePage() {
   restaurant.src = Restaurant;
   restaurant.classList.add("restaurant");
   contentBox.appendChild(restaurant);
-  console.log("homePage.js is loading");
 }

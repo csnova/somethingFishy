@@ -273,3 +273,54 @@ h4 {
   display: flex;
   align-items: center;
 }
+
+/* For the About Page */
+.aboutList {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: 100px;
+}
+
+.aboutHeader {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  align-self: end;
+}
+
+.aboutInfo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-rows: 100px 200px;
+}
+
+.aboutInfo1,
+.aboutInfo2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.truckBox {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.sushiTruck {
+  width: 600px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
