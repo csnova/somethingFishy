@@ -1,7 +1,7 @@
 import Map from "../src/images/map.png";
 import Restaurant from "../src/images/restaurant~2.jpg";
 
-export default function homePage() {
+function homePage() {
   const website = document.querySelector(`#content`);
   const contentBox = document.createElement("div");
   contentBox.classList.add("contentBox");
@@ -44,3 +44,5 @@ export default function homePage() {
   restaurant.classList.add("restaurant");
   contentBox.appendChild(restaurant);
 }
+
+export default homePage;

@@ -1,4 +1,4 @@
-export default function menuPage() {
+function menuPage() {
   const website = document.querySelector(`#content`);
   const contentBox = document.createElement("div");
   contentBox.classList.add("contentBox");
@@ -133,3 +133,5 @@ export default function menuPage() {
   item6Price.textContent = "$11.50";
   item6.appendChild(item6Price);
 }
+
+export default menuPage;

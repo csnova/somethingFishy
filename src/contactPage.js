@@ -1,6 +1,6 @@
 import Loop from "../src/images/mapLoop.png";
 
-export default function contactPage() {
+function contactPage() {
   const website = document.querySelector(`#content`);
   const contentBox = document.createElement("div");
   contentBox.classList.add("contentBox");
@@ -44,3 +44,5 @@ export default function contactPage() {
     "Just come find the truck! We play the sushi theme song on a loop and drive around Lake Union!";
   contactList.appendChild(contactInfo);
 }
+
+export default contactPage;

@@ -1,6 +1,6 @@
 import Truck from "../src/images/sushiTruck.jpg";
 
-export default function aboutPage() {
+function aboutPage() {
   const website = document.querySelector(`#content`);
   const contentBox = document.createElement("div");
   contentBox.classList.add("contentBox");
@@ -55,3 +55,5 @@ export default function aboutPage() {
   sushiTruck.classList.add("sushiTruck");
   truckBox.appendChild(sushiTruck);
 }
+
+export default aboutPage;
